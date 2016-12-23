@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>QRCoder</title>
+</head>
+<body>
+    <table style="width:400px;color: #00a157;">
+        <tr>
+            <td>
+                <div id="qr_code" style="width:210px;height:210px;"></div>
+            </td>
+            <td>
+                <p style="font-weight: bold;font-size: 15px;">Page QRCode</p>
+                <p style="font-weight: bold;font-size: 15px;"><button onclick="javascript:refresh();">Start Over</button></p>
+                <p style="font-size:12px;">URL:<br/><input id="qr_url"></p>
+                <div style="font-size: 11px;font-style: italic;">By <a href="mailto:eason991@gmail.com" target="mailto_iframe">Eason Wu</a></div>
+            </td>
+        </tr>
+    </table>
+    <iframe name="mailto_iframe" style="position:absolute;visibility:hidden;"></iframe>
+</body>
+<script src="jquery.min.js"></script>
+<script src="qrcode.js"></script>
+<script src="qrcode_UTF8.js"></script>
+<script src="jquery.qrcode.js"></script>
+<script src="qr.js"></script>
+</html>
