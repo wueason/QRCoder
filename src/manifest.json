@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "QRCoder",
-  "description": "QRCode generator with current page or filled text",
+  "description": "QRCode generator with current page url or filled text",
   "version": "1.0",
   "icons": {
     "128": "icon.png",
